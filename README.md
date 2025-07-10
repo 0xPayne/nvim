@@ -1,13 +1,15 @@
-# Installation 🚀
+# Neovim Configuration
+
+## Installation 🚀
     
-## Prerequisites
+### Prerequisites
 - [Neovim 0.9+](https://neovim.io/)
 - [git](https://git-scm.com/)
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
 - C compiler: [gcc](https://gcc.gnu.org/git.html)/[clang](https://clang.llvm.org/)
 - [Node.js](https://nodejs.org/en)
 
-## Steps
+### Steps
 
 1. **Install dependencies.**
     
@@ -39,9 +41,9 @@
    nvim .
    ```
 
-# Keybinds ⌨️
+## Keybinds ⌨️
 
-## General Keybinds
+### General Keybinds
 
 | Keybind        | Description                          |
 | -------------- | ------------------------------------ |
@@ -50,7 +52,7 @@
 
 ---
 
-## Telescope (`nvim-telescope/telescope.nvim`)
+### Telescope (`nvim-telescope/telescope.nvim`)
 
 | Keybind        | Description                  |
 | -------------- | --------------------------- |
@@ -59,7 +61,7 @@
 | `<leader>fb`   | List open buffers           |
 | `<leader>fh`   | Help tags                   |
 
-## Harpoon (`ThePrimeagen/harpoon`)
+### Harpoon (`ThePrimeagen/harpoon`)
 
 | Keybind        | Description                               |
 | -------------- | ----------------------------------------- |
@@ -69,7 +71,7 @@
 | `<C-p>`        | Go to previous Harpoon file               |
 | `<C-n>`        | Go to next Harpoon file                   |
 
-## LSP (via `neovim/nvim-lspconfig`)
+### LSP (via `neovim/nvim-lspconfig`)
 
 | Keybind        | Description                          |
 | -------------- | ------------------------------------ |
@@ -82,7 +84,7 @@
 | `gs`           | Show signature help                  |
 | `gl`           | Show diagnostics in floating window  |
 
-## Autocompletion (`hrsh7th/nvim-cmp` & `L3MON4D3/LuaSnip`)
+### Autocompletion (`hrsh7th/nvim-cmp` & `L3MON4D3/LuaSnip`)
 
 | Keybind        | Description                               |
 | -------------- | ----------------------------------------- |
