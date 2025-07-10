@@ -1,6 +1,6 @@
 # Neovim Configuration
 
-## Installation 🚀
+## Installation
     
 ### Prerequisites
 - [Neovim 0.9+](https://neovim.io/)
@@ -45,7 +45,7 @@
    rm .\.git\ 
    ```
 
-## Keybinds ⌨️
+## Keybinds
 
 ### General Keybinds
 
