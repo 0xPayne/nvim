@@ -11,24 +11,24 @@
 
 1. **Install dependencies.**
     
-    MacOS / Linux: (Using [Homebrew](https://brew.sh/) or your preferred package manager)
+    **MacOS / Linux:** (Using [Homebrew](https://brew.sh/) or your preferred package manager)
     ```
     brew install neovim git ripgrep gcc nodejs
     ```
 
-    Windows: (Using [Scoop](https://scoop.sh/) or your preferred package manager)
+    **Windows:** (Using [Scoop](https://scoop.sh/) or your preferred package manager)
     ```
     scoop install neovim git ripgrep gcc nodejs
     ```
 
 2. **Copy config files.**
 
-    MacOS / Linux:
+    **MacOS / Linux:**
     ```
     git clone https://github.com/Paynecoder/nvim.git ~/.config/nvim  
     ```
 
-    Windows:
+    **Windows:**
     ```
     git clone https://github.com/Paynecoder/nvim.git ~/AppData/Local/nvim/  
     ```
