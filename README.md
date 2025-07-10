@@ -40,7 +40,7 @@
    nvim .
    ```
 
-4. Delete git tracking. 
+4. **Delete git tracking.** 
    ```
    rm .\.git\ 
    ```
