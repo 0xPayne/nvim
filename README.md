@@ -2,10 +2,10 @@
 
 ## General Keybinds
 
-| Keybind        | Description                          | Plugin/Functionality      |
-| -------------- | ------------------------------------ | ------------------------ |
-| `<leader>`     | Set to `" "` (space)                 | Native (Leader Key)      |
-| `<leader>cd`   | Open netrw file explorer             | Native (`vim.cmd.Ex`)    |
+| Keybind        | Description                          |
+| -------------- | ------------------------------------ |
+| `<leader>`     | Set to `" "` (space)                 |
+| `<leader>cd`   | Open netrw file explorer             | 
 
 ---
 
@@ -24,7 +24,7 @@
 | -------------- | ----------------------------------------- |
 | `<leader>a`    | Add current file to Harpoon list          |
 | `<C-e>`        | Toggle Harpoon quick menu                 |
-| `<leader>fl`   | Open Harpoon window (Telescope integration) |
+| `<leader>fl`   | Open Harpoon inside telescope             |
 | `<C-p>`        | Go to previous Harpoon file               |
 | `<C-n>`        | Go to next Harpoon file                   |
 
