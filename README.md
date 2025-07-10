@@ -36,9 +36,13 @@
     ```
 
 3. **Launch neovim.**
-
    ```
    nvim .
+   ```
+
+4. Delete git tracking. 
+   ```
+   rm .\.git\ 
    ```
 
 ## Keybinds ⌨️
