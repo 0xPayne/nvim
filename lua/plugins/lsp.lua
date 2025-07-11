@@ -13,6 +13,8 @@ return {
 	config = function()
 	    -- Lua LS
 	    require("lspconfig").lua_ls.setup {}
+
+	    -- Add More Language Servers Here
 	end,
-    }
+    },
 }
