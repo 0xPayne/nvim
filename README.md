@@ -1,25 +1,21 @@
 # Neovim Configuration
 
+This requires [Neovim 0.9+](https://neovim.io/).
+
 ## Installation
     
-### Prerequisites
-- [Neovim 0.9+](https://neovim.io/)
-- [git](https://git-scm.com/)
-- [ripgrep](https://github.com/BurntSushi/ripgrep)
-- C compiler: [gcc](https://gcc.gnu.org/git.html)/[clang](https://clang.llvm.org/)
-
 ### Steps
 
 1. **Install dependencies.**
     
     **MacOS / Linux:** (Using [Homebrew](https://brew.sh/) or your preferred package manager)
     ```
-    brew install neovim git ripgrep gcc nodejs
+    brew install git ripgrep 
     ```
 
     **Windows:** (Using [Scoop](https://scoop.sh/) or your preferred package manager)
     ```
-    scoop install neovim git ripgrep gcc nodejs
+    scoop install git ripgrep
     ```
 
 2. **Copy config files.**
@@ -39,7 +35,7 @@
    nvim .
    ```
 
-4. **Delete git tracking.** 
+4. **Delete git tracking from new nvim/ directory.** 
    ```
    rm .\.git\ 
    ```
@@ -51,8 +47,8 @@
 | Keybind        | Description                          |
 | -------------- | ------------------------------------ |
 | `<leader>`     | Set to `" "` (space)                 |
-| `<leader>cd`   | Open oil file explorer             | 
-
+| `<leader>cd`   | Open oil file explorer               | 
+| `<leader>tt`   | Open floating terminal window                |
 ---
 
 ### Telescope (`nvim-telescope/telescope.nvim`)
