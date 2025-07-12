@@ -70,6 +70,5 @@
 | -------------- | ----------------------------------------- |
 | `<leader>a`    | Add current file to Harpoon list          |
 | `<C-e>`        | Toggle Harpoon quick menu                 |
-| `<leader>fl`   | Open Harpoon inside telescope             |
 | `<C-p>`        | Go to previous Harpoon file               |
 | `<C-n>`        | Go to next Harpoon file                   |
