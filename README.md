@@ -51,7 +51,7 @@
 | Keybind        | Description                          |
 | -------------- | ------------------------------------ |
 | `<leader>`     | Set to `" "` (space)                 |
-| `<leader>cd`   | Open netrw file explorer             | 
+| `<leader>cd`   | Open oil file explorer             | 
 
 ---
 
