@@ -68,3 +68,9 @@ This requires [Neovim 0.9+](https://neovim.io/).
 | `<C-e>`        | Toggle Harpoon quick menu                 |
 | `<C-p>`        | Go to previous Harpoon file               |
 | `<C-n>`        | Go to next Harpoon file                   |
+
+### LSP 
+
+| Keybind        | Description                               |
+| -------------- | ----------------------------------------- |
+| `<leader>fmt`  | Format current file                       |
