@@ -1,7 +1,9 @@
 local function enable_transparency()
-    vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
-    vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
-    vim.api.nvim_set_hl(0, "LineNr", { bg = "none" })
+    vim.api.nvim_set_hl(0, "Normal", { ctermbg = "none", bg = "none" })
+    vim.api.nvim_set_hl(0, "NormalFloat", { ctermbg = "none", bg = "none" })
+    vim.api.nvim_set_hl(0, "LineNr", { ctermbg = "none", bg = "none" })
+    vim.api.nvim_set_hl(0, "NormalNC", { ctermbg = "none", bg = "none" })
+    vim.api.nvim_set_hl(0, "EndOfBuffer", { ctermbg = "none", bg = "none" })
 end
 
 return {
