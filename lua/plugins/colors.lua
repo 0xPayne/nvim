@@ -6,12 +6,12 @@ end
 
 return {
     {
-        "folke/tokyonight.nvim",
-        config = function()
-            vim.cmd.colorscheme "tokyonight"
-            vim.cmd('hi Directory guibg=NONE')
-            vim.cmd('hi SignColumn guibg=NONE')
+	"navarasu/onedark.nvim",
+	priority = 1000,
+	config = function()
+	    require('onedark').setup( { style = 'darker' } )
+	    require('onedark').load()
             enable_transparency()
-        end
+	end
     },
 }
