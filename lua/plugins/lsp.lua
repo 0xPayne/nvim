@@ -33,6 +33,7 @@ return {
 					},
 				},
 				jdtls = {},
+				clangd = {},
 			}
 
 			for server, opts in pairs(servers) do
