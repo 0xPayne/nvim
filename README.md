@@ -51,7 +51,7 @@ This requires [Neovim 0.9+](https://neovim.io/).
 | `<leader>tt`   | Open floating terminal window                |
 ---
 
-### Telescope (`nvim-telescope/telescope.nvim`)
+### Telescope 
 
 | Keybind        | Description                  |
 | -------------- | --------------------------- |
@@ -60,7 +60,7 @@ This requires [Neovim 0.9+](https://neovim.io/).
 | `<leader>fb`   | List open buffers           |
 | `<leader>fh`   | Help tags                   |
 
-### Harpoon (`ThePrimeagen/harpoon`)
+### Harpoon 
 
 | Keybind        | Description                               |
 | -------------- | ----------------------------------------- |
@@ -74,3 +74,9 @@ This requires [Neovim 0.9+](https://neovim.io/).
 | Keybind        | Description                               |
 | -------------- | ----------------------------------------- |
 | `<leader>fmt`  | Format current file                       |
+
+### Trouble 
+
+| Keybind        | Description                               |
+| -------------- | ----------------------------------------- |
+| `<leader>xx`   | Open trouble diagnostics menu
