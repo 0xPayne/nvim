@@ -1,3 +1,5 @@
+-- Custom plugin to create floating terminal window.
+
 local state = {
   floating = {
     buf = -1,
