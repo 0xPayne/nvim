@@ -1,5 +1,8 @@
 vim.g.mapleader = " "
 
+-- Copy
+vim.api.nvim_set_keymap('v', '<C-c>', '"+y', { noremap = true, silent = true })
+
 -- Keymaps
 -- Oil
 vim.keymap.set("n", "<leader>cd", vim.cmd.Oil)
