@@ -73,7 +73,7 @@ This requires [Neovim 0.9+](https://neovim.io/).
 
 | Keybind        | Description                               |
 | -------------- | ----------------------------------------- |
-| `<leader>fmt`  | Format current file                       |
+| `<leader>cl`  | Format current file                       |
 
 ### Trouble 
 

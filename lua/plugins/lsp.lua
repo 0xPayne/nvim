@@ -13,7 +13,7 @@ return {
 			local lspconfig = require("lspconfig")
 
 			local on_attach = function(client, bufnr)
-				vim.keymap.set("n", "<leader>fmt", function()
+				vim.keymap.set("n", "<leader>cl", function()
 					vim.lsp.buf.format({ async = true })
 				end, { buffer = bufnr, desc = "Format Buffer" })
 			end
