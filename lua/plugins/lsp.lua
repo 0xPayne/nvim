@@ -34,7 +34,7 @@ return {
 				},
 				jdtls = {},
 				clangd = {},
-				hls = {},	
+				hls = {},
 			}
 
 			for server, opts in pairs(servers) do
