@@ -12,4 +12,4 @@ vim.keymap.set("t", "<esc><esc>", "<c-\\><c-n>")
 vim.keymap.set("n", "<leader>tt", vim.cmd.ZshFloat)
 
 -- VimTex
-vim.keymap.set("n", "<leader>lat", ":VimTeXCompile<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>lat", ":VimtexCompile<CR>", { noremap = true, silent = true })
