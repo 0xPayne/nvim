@@ -23,6 +23,8 @@ return {
                     "vim",
                     "c",
                     "gitignore",
+		    "haskell",
+		    "latex",
                 },
                 auto_install = false,
             })
