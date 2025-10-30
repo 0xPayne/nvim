@@ -10,12 +10,12 @@ This requires [Neovim 0.9+](https://neovim.io/).
     
     **MacOS / Linux:** (Using [Homebrew](https://brew.sh/) or your preferred package manager)
     ```
-    brew install git ripgrep 
+    brew install git ripgrep skim
     ```
 
     **Windows:** (Using [Scoop](https://scoop.sh/) or your preferred package manager)
     ```
-    scoop install git ripgrep
+    scoop install git ripgrep zathura
     ```
 
 2. **Copy config files.**
@@ -48,12 +48,12 @@ This requires [Neovim 0.9+](https://neovim.io/).
 | -------------- | ------------------------------------ |
 | `<leader>`     | Set to `" "` (space)                 |
 | `<leader>cd`   | Open oil file explorer               | 
-| `<leader>tt`   | Open floating terminal window                |
+| `<leader>tt`   | Open floating terminal window        |
 ---
 
 ### Telescope 
 
-| Keybind        | Description                  |
+| Keybind        | Description                 |
 | -------------- | --------------------------- |
 | `<leader>ff`   | Find files                  |
 | `<leader>fg`   | Live grep                   |
@@ -73,10 +73,16 @@ This requires [Neovim 0.9+](https://neovim.io/).
 
 | Keybind        | Description                               |
 | -------------- | ----------------------------------------- |
-| `<leader>cl`  | Format current file                       |
+| `<leader>cl`   | Format current file                       |
 
 ### Trouble 
 
 | Keybind        | Description                               |
 | -------------- | ----------------------------------------- |
 | `<leader>xx`   | Open trouble diagnostics menu
+
+### VimTex 
+
+| Keybind        | Description                               |
+| -------------- | ----------------------------------------- |
+| `<leader>lat`  | Compile and View
