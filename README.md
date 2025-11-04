@@ -85,4 +85,7 @@ This requires [Neovim 0.9+](https://neovim.io/).
 
 | Keybind        | Description                               |
 | -------------- | ----------------------------------------- |
-| `<leader>lat`  | Compile and View
+| `<leader>lat`  | Compile and View                          |
+| `<leader>ss`   | Toggle Spell Check                        |
+| `z=`           | Open suggestions                          |
+| `zg`           | Add to Dictionary                         |

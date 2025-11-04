@@ -13,3 +13,6 @@ vim.keymap.set("n", "<leader>tt", vim.cmd.ZshFloat)
 
 -- VimTex
 vim.keymap.set("n", "<leader>lat", ":VimtexCompile<CR>", { noremap = true, silent = true })
+
+-- SpellCheck
+vim.keymap.set("n", "<leader>ss", ":set spell!<cr>")
