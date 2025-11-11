@@ -10,12 +10,12 @@ This requires [Neovim 0.9+](https://neovim.io/).
     
     **MacOS / Linux:** (Using [Homebrew](https://brew.sh/) or your preferred package manager)
     ```
-    brew install git ripgrep skim
+    brew install git ripgrep
     ```
 
     **Windows:** (Using [Scoop](https://scoop.sh/) or your preferred package manager)
     ```
-    scoop install git ripgrep zathura
+    scoop install git ripgrep
     ```
 
 2. **Copy config files.**
@@ -89,3 +89,4 @@ This requires [Neovim 0.9+](https://neovim.io/).
 | `<leader>ss`   | Toggle Spell Check                        |
 | `z=`           | Open suggestions                          |
 | `zg`           | Add to Dictionary                         |
+| `gx`           | Open Selected PDF in Oil                  |
