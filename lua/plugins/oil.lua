@@ -8,9 +8,9 @@ return {
 			require("oil").setup(
 				{
 					view_options = {
-						show_hidden = true,
+						show_hidden = false,
 						is_hidden_file = function(name, bufnr)
-							return vim.startswith(name, ".") or name == ".DS_Store"
+							return name == ".DS_Store"
 						end,
 					}
 
