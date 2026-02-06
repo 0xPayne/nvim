@@ -34,7 +34,9 @@ return {
 				},
 				jdtls = {},
 				clangd = {},
-				hls = {}			
+				hls = {},
+				pylsp = {},
+				texlab = {}	
 			    }
 
 			for server, opts in pairs(servers) do
