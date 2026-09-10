@@ -33,11 +33,12 @@ return {
 					},
 				},
 				jdtls = {},
-				clangd = {},
+				clangd = {
+				},
 				hls = {},
 				pylsp = {},
-				texlab = {}	
-			    }
+				texlab = {}
+			}
 
 			for server, opts in pairs(servers) do
 				opts.capabilities = capabilities
