@@ -1,10 +1,10 @@
 return {
     {
         "nvim-treesitter/nvim-treesitter",
+	branch = 'main',
         build = ":TSUpdate",
         config = function()
-            local configs = require("nvim-treesitter.configs")
-            configs.setup({
+            require("nvim-treesitter").setup({
                 highlight = {
                     enable = true,
                 },
@@ -13,7 +13,7 @@ return {
                 ensure_installed = {
                     "json",
                     "javascript",
-		    "java",
+                    "java",
                     "typescript",
                     "html",
                     "css",
@@ -23,10 +23,10 @@ return {
                     "vim",
                     "c",
                     "gitignore",
-		    "haskell",
-		    "latex",
+                    "haskell",
+                    "latex",
                 },
-                auto_install = false,
+                auto_install = true,
             })
         end
     }

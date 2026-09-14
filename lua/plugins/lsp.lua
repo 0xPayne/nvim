@@ -10,7 +10,6 @@ return {
 			require("mason").setup()
 			require("mason-lspconfig").setup()
 			local capabilities = require("cmp_nvim_lsp").default_capabilities()
-			local lspconfig = require("lspconfig")
 
 			local on_attach = function(client, bufnr)
 				vim.keymap.set("n", "<leader>cl", function()
@@ -33,8 +32,7 @@ return {
 					},
 				},
 				jdtls = {},
-				clangd = {
-				},
+				clangd = {},
 				hls = {},
 				pylsp = {},
 				texlab = {}
@@ -42,8 +40,11 @@ return {
 
 			for server, opts in pairs(servers) do
 				opts.capabilities = capabilities
-				opts.on_attach = on_attach;
-				lspconfig[server].setup(opts)
+				opts.on_attach = on_attach
+				vim.lsp.config[server] = vim.tbl_extend("force", opts, {
+					cmd = vim.lsp.rpc.connect(vim.fn.exepath(server)),
+					name = server
+				})
 			end
 		end,
 	},
