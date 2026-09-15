@@ -41,10 +41,7 @@ return {
 			for server, opts in pairs(servers) do
 				opts.capabilities = capabilities
 				opts.on_attach = on_attach
-				vim.lsp.config[server] = vim.tbl_extend("force", opts, {
-					cmd = vim.lsp.rpc.connect(vim.fn.exepath(server)),
-					name = server
-				})
+				vim.lsp.config(server, opts)
 			end
 		end,
 	},
