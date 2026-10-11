@@ -1,33 +1,26 @@
 return {
     {
         "nvim-treesitter/nvim-treesitter",
-	branch = 'main',
+        branch = "main",
+        lazy = false,
         build = ":TSUpdate",
         config = function()
-            require("nvim-treesitter").setup({
-                highlight = {
-                    enable = true,
-                },
-                indent = { enable = true },
-                autotag = { enable = true },
-                ensure_installed = {
-                    "json",
-                    "javascript",
-                    "java",
-                    "typescript",
-                    "html",
-                    "css",
-                    "markdown",
-                    "bash",
-                    "lua",
-                    "vim",
-                    "c",
-                    "gitignore",
-                    "haskell",
-                    "latex",
-                },
-                auto_install = true,
+            require("nvim-treesitter").install({
+                "python", "javascript", "typescript", "tsx",
+                "java", "c", "cpp", "lua", "bash",
+                "json", "html", "css", "vim", "vimdoc",
+                "markdown", "markdown_inline", "haskell", "latex",
             })
-        end
-    }
+
+            vim.api.nvim_create_autocmd("FileType", {
+                group = vim.api.nvim_create_augroup(
+                    "SyntaxTreesitter", { clear = true }
+                ),
+                callback = function(event)
+                    -- Fall back to regular syntax if no parser is available.
+                    pcall(vim.treesitter.start, event.buf)
+                end,
+            })
+        end,
+    },
 }
